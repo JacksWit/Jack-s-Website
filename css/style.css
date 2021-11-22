@@ -1,0 +1,108 @@
+/* 
+    Author: Jack Switzer
+    Team: Resume Page
+    Version: 1.0
+*/
+
+/* CSS for All */
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../Images/bg.jpg");
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+a{
+    color: aqua;
+    font-style: none;
+}
+
+a:hover{
+    color: red
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* CSS for Navbar */
+
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 1px 0;
+}
+
+.navbar ul{
+    text-align: right;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 1%;
+}
+/* CSS for Categories */
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-4{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 45%;
+    padding: 9% 0;
+    margin: 1%;
+    float: left;
+}
+
+.box-4:hover{
+    background-image: url("../Images/box-bg.jpg");
+    font-weight: solid;
+    color: white;
+}
+
+/* CSS for footer */
+
+.footer{
+    text-align: center;
+    color: black;
+}
+
+/* CSS for Social */
+
+.social{
+    padding: 1% 0;
+}
+
+.social ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.social ul li{
+    width: 5%;
+    display: inline;
+   
+}
